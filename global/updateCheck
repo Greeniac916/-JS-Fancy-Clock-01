@@ -1,5 +1,5 @@
 versionPage = fs.open("/core/version", "r")
-id = "/" .. os.getComputerLabel()
+id = os.getComputerLabel()
 version = tonumber(versionPage.readLine())
 upVersion = tonumber(http.get("https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/" .. id  .. "/version").readAll())
 versionPage.close()
