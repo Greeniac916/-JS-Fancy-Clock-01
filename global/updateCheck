@@ -4,7 +4,7 @@ version = tonumber(versionPage.readLine())
 upVersion = tonumber(http.get("https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/" .. id  .. "/version").readAll())
 versionPage.close()
 if (upVersion > version) then
-  print("Sorry, there is an update. Please wait until the OS has been updated!")
+  print("Sorry, there is an update. Commencing update!")
   sleep(2)
   file = assert(io.open("/startup", "w"))
 		file:write("shell.run('Trains/updater')")
