@@ -1,0 +1,11 @@
+function download(path, url)
+  print("Downloading files...")
+  stuff = http.get(url).readAll()
+  file = io.open(path,"w")
+  file:write(stuff)
+  file:close()
+end
+
+download("core/updateCheck","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/global/updateCheck")
+
+os.reboot()
