@@ -1,2 +1,2 @@
 print("Hello, my name is " .. os.getComputerLabel() .. "!")
-shell.run("core/updateChecker")
+shell.run("core/updateCheck")
