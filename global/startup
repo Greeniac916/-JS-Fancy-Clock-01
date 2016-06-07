@@ -1,0 +1,2 @@
+print("Hello, my name is " .. os.getLabel() .. "!")
+shell.run("core/updateChecker")
