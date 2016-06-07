@@ -7,7 +7,8 @@ function download(path, url)
 end
 
 download("core/updateCheck","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/global/updateCheck")
-download("core/updater","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/global/updater")
+download("core/updater","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/Peter/updater")
 download("core/verson","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/Peter/version")
+download("startup","https://raw.githubusercontent.com/Greeniac916/CC-Programs/master/global/startup")
 
 os.reboot()
