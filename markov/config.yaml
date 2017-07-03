@@ -1,0 +1,7 @@
+token: 'Mjc1MzM5MTE2NDMzMTEzMDg5.DDn4vQ.g6lNSTh53Bf35cEkeoID3KtDdi8'
+
+bot:
+  commands_require_mention: false
+  commands_prefix: '//'
+  plugins:
+    - plugins.greenBot
